@@ -4,8 +4,8 @@ package game;
 public class Deck {
     //This class will create 52 cards
     private final Stack<Card> deck;
-    private Stack<Card> cardsInHand;
-    private Stack<Object> replay;
+    private final Stack<Card> cardsInHand;
+    private final Stack<Object> replay;
     public int numberOfCards = 0;
     final String[] rankArray = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
     final Integer[] cardValue = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
